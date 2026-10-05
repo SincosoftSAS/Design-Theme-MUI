@@ -1,0 +1,98 @@
+import type { TypographyVariantsOptions as TypographyOptions } from '@mui/material/styles';
+
+const Typography: TypographyOptions = {
+  fontSize: 14,
+  h1: {
+    fontFamily: 'Nunito',
+    fontSize: '6.85714286rem',
+    fontWeight: '300',
+    lineHeight: '1.167',
+    letterSpacing: '-0.01562em',
+  },
+  h2: {
+    fontFamily: 'Nunito',
+    fontSize: '4.28571429rem',
+    fontWeight: '400',
+    lineHeight: ' 1.2',
+    letterSpacing: '-0.00833em',
+  },
+  h3: {
+    fontFamily: 'Nunito',
+    fontSize: '3.42857143rem',
+    fontWeight: '500',
+    lineHeight: '1.167',
+    letterSpacing: 0,
+  },
+  h4: {
+    fontFamily: 'Nunito',
+    fontSize: '2.42857143rem',
+    fontWeight: '500',
+    lineHeight: '1.235',
+    letterSpacing: '0.00735em',
+  },
+  h5: {
+    fontFamily: 'Nunito',
+    fontSize: '1.28571429rem',
+    fontWeight: '500',
+    lineHeight: '1.26',
+    letterSpacing: 0,
+  },
+  h6: {
+    fontFamily: 'Nunito',
+    fontSize: '1.142857142857143rem',
+    fontWeight: '600',
+    lineHeight: '1.5',
+    letterSpacing: '0.010714285714285714em',
+  },
+  subtitle1: {
+    fontFamily: 'Roboto',
+    fontSize: '1rem',
+    fontWeight: '500',
+    lineHeight: '1.43',
+    letterSpacing: '0.0075em',
+  },
+  subtitle2: {
+    fontFamily: 'Roboto',
+    fontSize: '0.9285714285714286rem',
+    fontWeight: '500',
+    lineHeight: '1.57',
+    letterSpacing: '0.00714em',
+  },
+  body1: {
+    fontFamily: 'Roboto',
+    fontSize: '1rem',
+    fontWeight: '400',
+    lineHeight: '1.43',
+    letterSpacing: '0.00938em',
+  },
+  body2: {
+    fontFamily: 'Roboto',
+    fontSize: '0.9285714285714286rem',
+    fontWeight: '400',
+    lineHeight: '1.34',
+    letterSpacing: '0.012142857142857144em',
+  },
+  caption: {
+    fontFamily: 'Roboto',
+    fontSize: '0.7857142857142857rem',
+    fontWeight: '400',
+    lineHeight: '1.5',
+    letterSpacing: '0.029em',
+  },
+  overline: {
+    fontFamily: 'Roboto',
+    fontSize: '0.7857142857142857rem',
+    fontWeight: '400',
+    lineHeight: '2.4',
+    letterSpacing: '0.071em',
+  },
+  button: {
+    fontFamily: 'Roboto',
+    fontSize: '1rem',
+    fontWeight: '500',
+    lineHeight: '1.71429',
+    letterSpacing: '0.02857em',
+    textTransform: 'none',
+  },
+};
+export const typography = Typography;

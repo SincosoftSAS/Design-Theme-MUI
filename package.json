@@ -1,0 +1,115 @@
+{
+  "name": "@sincosoftsas/design-theme-mui",
+  "version": "0.1.0",
+  "description": "Themes de MUI Material de los productos Sinco: Sinco ERP, ADC y Bitákora.",
+  "license": "UNLICENSED",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./core": {
+      "import": {
+        "types": "./dist/core/index.d.mts",
+        "default": "./dist/core/index.mjs"
+      },
+      "require": {
+        "types": "./dist/core/index.d.ts",
+        "default": "./dist/core/index.js"
+      }
+    },
+    "./sinco-erp": {
+      "import": {
+        "types": "./dist/products/sinco-erp/index.d.mts",
+        "default": "./dist/products/sinco-erp/index.mjs"
+      },
+      "require": {
+        "types": "./dist/products/sinco-erp/index.d.ts",
+        "default": "./dist/products/sinco-erp/index.js"
+      }
+    },
+    "./adc": {
+      "import": {
+        "types": "./dist/products/adc/index.d.mts",
+        "default": "./dist/products/adc/index.mjs"
+      },
+      "require": {
+        "types": "./dist/products/adc/index.d.ts",
+        "default": "./dist/products/adc/index.js"
+      }
+    },
+    "./bitakora": {
+      "import": {
+        "types": "./dist/products/bitakora/index.d.mts",
+        "default": "./dist/products/bitakora/index.mjs"
+      },
+      "require": {
+        "types": "./dist/products/bitakora/index.d.ts",
+        "default": "./dist/products/bitakora/index.js"
+      }
+    },
+    "./cosmos": {
+      "import": {
+        "types": "./dist/products/cosmos/index.d.mts",
+        "default": "./dist/products/cosmos/index.mjs"
+      },
+      "require": {
+        "types": "./dist/products/cosmos/index.d.ts",
+        "default": "./dist/products/cosmos/index.js"
+      }
+    },
+    "./locales-x": {
+      "import": {
+        "types": "./dist/locales-x/index.d.mts",
+        "default": "./dist/locales-x/index.mjs"
+      },
+      "require": {
+        "types": "./dist/locales-x/index.d.ts",
+        "default": "./dist/locales-x/index.js"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "prepare": "npm run build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@mui/material": "^9.0.0",
+    "@mui/system": "^9.0.0",
+    "@mui/x-data-grid": "^9.0.0",
+    "@mui/x-date-pickers": "^9.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@mui/system": {
+      "optional": true
+    },
+    "@mui/x-data-grid": {
+      "optional": true
+    },
+    "@mui/x-date-pickers": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^9.4.0",
+    "@mui/system": "^9.4.0",
+    "@mui/x-data-grid": "^9.14.0",
+    "@mui/x-date-pickers": "^9.14.0",
+    "@types/react": "^19.0.0",
+    "prettier": "^3.9.9",
+    "react": "^19.0.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.0"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@mui/utils": "^9.0.0"
+  }
+}
